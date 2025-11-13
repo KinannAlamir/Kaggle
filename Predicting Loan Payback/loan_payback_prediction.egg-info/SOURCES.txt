@@ -1,7 +1,0 @@
-README.md
-pyproject.toml
-loan_payback_prediction.egg-info/PKG-INFO
-loan_payback_prediction.egg-info/SOURCES.txt
-loan_payback_prediction.egg-info/dependency_links.txt
-loan_payback_prediction.egg-info/requires.txt
-loan_payback_prediction.egg-info/top_level.txt
