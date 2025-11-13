@@ -53,13 +53,6 @@ Predict the probability that a borrower will pay back their loan based on 13 ori
 | Hybrid Ensemble | 0.9213 | CatBoost + TabNet |
 | TabNet | 0.9130 | Attention-based NN |
 
-## 📁 Files
-
-- `main.ipynb` - Complete analysis and model training (clean & production-ready)
-- `submission_catboost.csv` - **Recommended submission** (0.9214 AUC)
-- `submission_hybrid.csv` - Ensemble approach
-- `data/` - Training and test datasets
-
 ## 🛠️ Setup
 
 This project uses `uv` for dependency management.
@@ -94,25 +87,6 @@ uv run jupyter notebook
 - **Feature quality** matters more than quantity (33 engineered features optimal)
 - **Employment status** is by far the most important predictor (54.9% importance)
 - **TabNet provides different insights** through attention mechanism but didn't improve AUC
-
-## 📈 Performance Journey
-
-```
-Baseline (no optimization):       ~0.91 AUC
-↓
-CatBoost (with Optuna):           0.9214 AUC (+2.4 pts)
-↓
-TabNet (attention-based):         0.9130 AUC (different insights)
-```
-
-## 🎖️ Competition Readiness
-
-✅ Optimized hyperparameters  
-✅ Advanced feature engineering  
-✅ Multiple model approaches tested  
-✅ Robust validation strategy  
-✅ Clean, reproducible code  
-✅ Ready for Kaggle submission  
 
 ## 📝 License
 
