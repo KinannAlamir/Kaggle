@@ -1,6 +1,7 @@
 # Loan Payback Prediction - Kaggle Playground Series 2025
 
 A comprehensive machine learning solution for predicting loan payback probability using advanced feature engineering and state-of-the-art models.
+Link to the Kaggle competition is here : https://www.kaggle.com/competitions/playground-series-s5e11/data
 
 ## 🎯 Competition Overview
 
