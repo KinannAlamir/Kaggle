@@ -1,23 +1,88 @@
-# Data
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.virtualenvs/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+.ipynb_aml_checkpoints/
+*.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Azure ML
+.amlignore
+.amlignore.amltmp
+.azureml/
+
+# Model files (too large for git)
+*.pth
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+
+# Data files (too large for git)
 cafa-6-protein-function-prediction/
-data/
 *.fasta
 *.tsv
 *.obo
 
-# Models
-*.pth
-*.pt
-*.ckpt
+# Submission files (generated)
+submission.tsv
 
-# Python
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-.venv/
-.env
+# Logs
+*.log
+
+# Cache
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# UV
+.python-version
 uv.lock
 
-# IDE
-.vscode/
-.idea/
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
