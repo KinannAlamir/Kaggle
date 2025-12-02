@@ -1,0 +1,13 @@
+accelerate>=0.20.0
+biopython>=1.80
+ipykernel
+jupyter
+matplotlib
+networkx
+numpy
+obonet
+pandas
+seaborn
+torch
+transformers
+urllib3<2.0
